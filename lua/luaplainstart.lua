@@ -32,8 +32,13 @@ local function open_window()
   win = api.nvim_open_win(buf, true, opts)
 end
 
+local function say_hello()
+  print("Hello World")
+end
+
 local function hello_world()
   open_window()
+  say_hello()
 end
 
 return {
