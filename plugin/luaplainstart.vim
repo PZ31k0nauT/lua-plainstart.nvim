@@ -10,7 +10,7 @@ if !has('nvim')
     finish
 endif
 
-command! luaplainstart lua require'luaplainstart'.luaplainstart()
+command! Luaplainstart lua require'luaplainstart'.luaplainstart()
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
