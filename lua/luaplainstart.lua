@@ -3,8 +3,8 @@ local M = {}
 -- Create commands
 -- TODO: Was bedeuten bang und nargs
 local function create_commands()
-  vim.cmd("command! -bang -nargs=0 HelloWorldGerman :lua require('hello_world').german()" )
-  vim.cmd("command! -bang -nargs=0 HelloWorldEnglish :lua require('hello_world').english()" )
+  vim.cmd("command! -bang -nargs=0 HelloWorldGerman :lua require('luaplainstart').german()" )
+  vim.cmd("command! -bang -nargs=0 HelloWorldEnglish :lua require('luaplainstart').english()" )
 end
 
 function M.german()
